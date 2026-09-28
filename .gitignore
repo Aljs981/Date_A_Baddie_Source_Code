@@ -1,0 +1,41 @@
+# Butano build output
+build/
+bin/
+obj/
+
+# Generated files
+*.elf
+*.gba
+*.map
+*.lst
+*.elf.map
+*.sym
+
+# Compiled object files
+*.o
+*.d
+
+# Debug files
+*.debug
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# C/C++ precompiled headers
+*.gch
+
+# Butano generated/cache files
+*.bn.cpp
+*.bn.hpp
